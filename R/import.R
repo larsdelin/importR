@@ -9,7 +9,12 @@
 #'
 #'@return a data frame
 #'
-#'@details put details in here!
+#'@details
+#'The \code{import} function is a wrapper for the
+#'\href{https://haven.tidyverse.org/}{haven}
+#'\href{https://readxl.tidyverse.org/}{readxl},
+#'and \href{https://github.com/r-lib/vroom}{vroom}
+#'packages.
 #'
 #'@export
 #'
