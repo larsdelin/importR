@@ -16,6 +16,13 @@
 #'and \href{https://github.com/r-lib/vroom}{vroom}
 #'packages.
 #'
+#'@seealso
+#'\link[haven]{read_sas},
+#'\link[haven]{read_dta},
+#'\link[haven]{read_spss},
+#'\link[readxl]{read_excel}, and
+#'\link[vroom]{vroom}.
+#'
 #'@export
 #'
 #'@importFrom haven read_sas read_stata read_spss

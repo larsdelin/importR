@@ -19,7 +19,11 @@ The import function can import data from delimited text files, excel
 spreadsheets, and statistical packages such as SAS, SPSS, and STATA.
 }
 \details{
-put details in here!
+The \code{import} function is a wrapper for the
+\href{https://haven.tidyverse.org/}{haven}
+\href{https://readxl.tidyverse.org/}{readxl},
+and \href{https://github.com/r-lib/vroom}{vroom}
+packages.
 }
 \examples{
 \dontrun{
@@ -35,4 +39,11 @@ mydataframe <- import("mydata.sas7bdat")
  # prompt for a file to import
  mydataframe <- import()
  }
+}
+\seealso{
+\link[haven]{read_sas},
+\link[haven]{read_dta},
+\link[haven]{read_spss},
+\link[readxl]{read_excel}, and
+\link[vroom]{vroom}.
 }
